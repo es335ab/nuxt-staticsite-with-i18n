@@ -1,0 +1,17 @@
+{
+  "links": {
+    "home": "ほーむ",
+    "about": "あばうと",
+    "english": "英語版",
+    "french": "フランス版",
+    "japanese": "日本版"
+  },
+  "home": {
+    "title": "ようこそ！",
+    "introduction": "これは日本語のイントロです。"
+  },
+  "about": {
+    "title": "アバウト",
+    "introduction": "アバウトのイントロダクションです"
+  }
+}
