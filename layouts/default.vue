@@ -1,12 +1,18 @@
 <template lang="pug">
-  div
+  div.container
     global-header
+    nuxt
 </template>
 
 <script>
 import GlobalHeader from '~/layouts/parts/GlobalHeader.vue'
 
 export default {
+  data() {
+    return {
+      // locale: this.$store.state.locale, // これだと別言語のページに遷移後に言語を追従できず。。
+    }
+  },
   components: {
     GlobalHeader,
   },

@@ -5,6 +5,15 @@ module.exports = {
   },
   plugins: ['~/plugins/i18n.js'],
   generate: {
-    routes: ['/', '/about', '/fr', '/fr/about', '/ja', '/ja/about']
+    routes: [
+      // en
+      '/', '/about', '/users/:id',
+
+      // fr
+      '/fr', '/fr/about', '/fr/users/:id',
+
+      // ja
+      '/ja', '/ja/about', '/ja/users/:id'
+    ]
   }
 }
