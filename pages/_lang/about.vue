@@ -1,10 +1,8 @@
-<template>
-  <div class="Content">
-    <div class="container">
-      <h1 class="Content__Title">{{ $t('about.title') }}</h1>
-      <p>{{ $t('about.introduction') }}</p>
-    </div>
-  </div>
+<template lang="pug">
+  div.Content
+    div.container
+    h1.Content__Title {{ $t('about.title') }}
+    p {{ $t('about.introduction') }}
 </template>
 
 <script>

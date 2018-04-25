@@ -2,6 +2,7 @@
   "name": "example-i18n",
   "dependencies": {
     "nuxt": "latest",
+    "pug": "^2.0.3",
     "vue-i18n": "^7.3.2"
   },
   "scripts": {
