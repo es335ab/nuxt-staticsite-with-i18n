@@ -10,8 +10,11 @@
           <nuxt-link class="Header__Link" :to="$i18n.path('about')" exact>
             {{ $t('links.about') }}
           </nuxt-link>
-          <nuxt-link class="Header__Link" v-if="$i18n.locale === 'en'" :to="`/fr` + $route.fullPath" active-class="none" exact>
+          <nuxt-link class="Header__Link" v-if="$i18n.locale !== 'fr'" :to="`/fr`" active-class="none" exact>
             {{ $t('links.french') }}
+          </nuxt-link>
+          <nuxt-link class="Header__Link" v-if="$i18n.locale !== 'ja'" :to="`/ja`" active-class="none" exact>
+            {{ $t('links.japanese') }}
           </nuxt-link>
           <nuxt-link class="Header__Link" v-else :to="$route.fullPath.replace(/^\/[^\/]+/, '')" active-class="none" exact>
             {{ $t('links.english') }}
@@ -43,7 +46,7 @@ html, body {
   margin: 0;
 }
 .container {
-  width: 75%;
+  width: 95%;
   margin: 0 auto;
 }
 .container:after {
