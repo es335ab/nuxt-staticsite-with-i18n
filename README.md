@@ -1,5 +1,21 @@
-# i18n with Nuxt.js
+# nuxt-staticsite-with-i18n
 
-https://nuxtjs.org/examples/i18n
+## versions
 
-https://github.com/kazupon/vue-i18n
+```
+$ node -v
+v8.9.4
+```
+
+## install
+
+```
+$ yarn
+```
+
+## serve
+
+```
+$ yarn nuxt dev
+```
+
