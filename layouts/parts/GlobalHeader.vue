@@ -1,7 +1,7 @@
 <template lang="pug">
   div
+    div {{ locale }}
     header.Header
-    div.container
       h1.Header__Title Nuxt i18n
       nav.Header__Menu
         nuxt-link.Header__Link(:to="$i18n.path('')" exact) {{ $t('links.home') }}
@@ -12,7 +12,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      locale: this.$store.state.locale,
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped>

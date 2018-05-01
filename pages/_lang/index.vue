@@ -1,15 +1,21 @@
 <template lang="pug">
   div.Content
+    global-header
     div.container
-    h1.Content__Title {{ $t('home.title') }}
-    p {{ $t('home.introduction') }}
+      h1.Content__Title {{ $t('home.title') }}
+      p {{ $t('home.introduction') }}
 </template>
 
 <script>
+import GlobalHeader from '~/layouts/parts/GlobalHeader.vue'
+
 export default {
   head() {
     return { title: this.$t('home.title') }
-  }
+  },
+  components: {
+    GlobalHeader,
+  },
 }
 </script>
 
@@ -19,5 +25,4 @@ export default {
     font-size: 10px;
   }
 }
-
 </style>
