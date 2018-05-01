@@ -1,0 +1,8 @@
+.mod-btn {
+  font-size: 14px;
+  font-weight: bold;
+  &.is-primary {
+    background: blue;
+    color: #fff;
+  }
+}

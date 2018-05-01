@@ -7,18 +7,9 @@ export default {}
 </script>
 
 <style lang="scss">
-*, *:before, *:after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-html, body {
-  background-color: #fff;
-  color: #2e2f30;
-  letter-spacing: 0.5px;
-  font-size: 18px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
-  height: 100vh;
-  margin: 0;
-}
+@import "../css/functions/all";
+@import "../css/reset";
+@import "../css/utils/all";
+@import "../css/lib/all";
+@import "../css/modules/all";
 </style>

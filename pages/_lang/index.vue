@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import GlobalHeader from '~/layouts/parts/GlobalHeader.vue'
+import GlobalHeader from '~/components/layouts/GlobalHeader.vue'
 
 export default {
   head() {

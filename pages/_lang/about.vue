@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import GlobalHeader from '~/layouts/parts/GlobalHeader.vue'
+import GlobalHeader from '~/components/layouts/GlobalHeader.vue'
 
 export default {
   head() {
@@ -20,9 +20,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.Content {
-  .Content__Title {
-    font-size: 100px;
-  }
-}
 </style>

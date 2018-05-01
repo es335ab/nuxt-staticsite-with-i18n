@@ -1,0 +1,24 @@
+.util-flex {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  >.cell {
+    display: table-cell;
+    .cell-inner {
+      display: block;
+      position: relative;
+      @include clearfix();
+    }
+  }
+}
+
+.util-float-flex {
+  @include clearfix();
+  .float-flex-item {
+    float: left;
+    margin-right: 15px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+/*
+ * functions/clearfix
+ */
+
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin pie-clearfix() {
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
