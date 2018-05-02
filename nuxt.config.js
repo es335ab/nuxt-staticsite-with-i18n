@@ -18,8 +18,8 @@ module.exports = {
   },
   modules: [
     ['nuxt-sass-resources-loader', [
-      '@/css/functions/_all.scss',
-      '@/css/var/_all.scss',
+      '@/assets/css/functions/_all.scss',
+      '@/assets/css/var/_all.scss',
     ]],
   ],
 }

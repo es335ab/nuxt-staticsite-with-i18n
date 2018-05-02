@@ -7,9 +7,9 @@ export default {}
 </script>
 
 <style lang="scss">
-@import "../css/functions/all";
-@import "../css/reset";
-@import "../css/utils/all";
-@import "../css/lib/all";
-@import "../css/modules/all";
+@import "../assets/css/functions/all";
+@import "../assets/css/reset";
+@import "../assets/css/utils/all";
+@import "../assets/css/lib/all";
+@import "../assets/css/modules/all";
 </style>
