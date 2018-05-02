@@ -15,5 +15,11 @@ module.exports = {
       // ja
       '/ja', '/ja/about', '/ja/users', '/ja/users/:id'
     ]
-  }
+  },
+  modules: [
+    ['nuxt-sass-resources-loader', [
+      '@/css/functions/_all.scss',
+      '@/css/var/_all.scss',
+    ]],
+  ],
 }

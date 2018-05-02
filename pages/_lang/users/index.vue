@@ -36,10 +36,11 @@ export default {
 
 <style lang="scss" scoped>
 .container.is-users-index {
-  // @include clearfix();
+  @include clearfix();
 
   h1 {
     float: left;
+    font-size: $nanikasize;
   }
 
   .users {
