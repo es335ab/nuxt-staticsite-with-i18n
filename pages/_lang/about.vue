@@ -1,5 +1,5 @@
 <template lang="pug">
-  div.Content
+  div
     global-header
     div.container
       h1.Content__Title {{ $t('about.title') }}

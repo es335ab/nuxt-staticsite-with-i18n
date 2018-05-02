@@ -7,13 +7,13 @@ module.exports = {
   generate: {
     routes: [
       // en
-      '/', '/about', '/users/:id',
+      '/', '/about', '/users', '/users/:id',
 
       // fr
-      '/fr', '/fr/about', '/fr/users/:id',
+      '/fr', '/fr/about', '/fr/users', '/fr/users/:id',
 
       // ja
-      '/ja', '/ja/about', '/ja/users/:id'
+      '/ja', '/ja/about', '/ja/users', '/ja/users/:id'
     ]
   }
 }

@@ -1,6 +1,8 @@
+import usersData from '~/data/users.json'
+
 export const state = () => ({
   locales: ['en', 'fr', 'ja'],
-  locale: 'en'
+  locale: 'en',
 })
 
 export const mutations = {

@@ -1,5 +1,5 @@
 <template lang="pug">
-  div.Content
+  div
     global-header
     div.container
       h1.Content__Title {{ $t('home.title') }}
@@ -20,9 +20,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.Content {
-  .Content__Title {
-    font-size: 10px;
-  }
-}
 </style>
