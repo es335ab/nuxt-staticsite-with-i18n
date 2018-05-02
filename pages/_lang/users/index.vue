@@ -3,6 +3,7 @@
     global-header
     div.container.is-users-index
       h1 {{ $t('user.title') }}
+      img(src="~/assets/img/kaiji.jpg")
       div.users
         div.user(
           v-for="user in users"
