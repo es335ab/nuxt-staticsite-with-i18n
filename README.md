@@ -19,3 +19,21 @@ $ yarn
 $ yarn nuxt dev
 ```
 
+## generate
+
+```
+$ yarn generate
+```
+
+## create search index
+
+Create an index.json for search
+
+```
+$ yarn create_search_index
+```
+
+## deploy
+
+```
+```

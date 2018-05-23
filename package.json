@@ -8,7 +8,11 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "create_search_index": "node node_tasks/create_search_index.js",
+    "deploy:dev": "",
+    "deploy:stg": "",
+    "deploy:prd": ""
   },
   "devDependencies": {
     "node-sass": "^4.8.3",
