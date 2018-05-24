@@ -1,8 +1,7 @@
 {
   "name": "example-i18n",
   "dependencies": {
-    "nuxt": "latest",
-    "vue-i18n": "^7.3.2"
+    "nuxt": "latest"
   },
   "scripts": {
     "dev": "nuxt",
