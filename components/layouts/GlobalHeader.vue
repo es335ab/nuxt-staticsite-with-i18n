@@ -1,5 +1,5 @@
 <template lang="pug">
-  header.global-header
+  header.ly-global-header
     h1.title ぐろーばるへっだー
 </template>
 
@@ -8,4 +8,7 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+.ly-global-header {
+  .title {}
+}
 </style>
