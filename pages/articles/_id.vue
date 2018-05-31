@@ -1,6 +1,7 @@
 <template lang="pug">
   div.ly-container.is-articles-show
     global-header
+    a(v-bind:href="articlesIndexUrl") 記事一覧にもどる
     div.container
       h1 {{ pageTitle }}
       div.article-id {{ id }}
@@ -29,7 +30,11 @@ export default {
   computed: {
     pageTitle() {
       return `${this.title}ってタイトルの記事だよっ！`
-    }
+    },
+
+    articlesIndexUrl() {
+      return '/articles'
+    },
   }
 }
 </script>

@@ -3,14 +3,16 @@
     global-header
     main.main
       h1 記事一覧
-      img.kaiji(src="~/assets/img/kaiji.jpg")
+      img.kaiji(src="~/assets/img/icon_test.png")
+      div.mod-sample-icon-btn
       div.articles
         div.article-item(
           v-for="article in articles"
           :key="article.id"
         )
-          div.article-name {{ article.title }}
-          div.article-age(v-html="article.content")
+          a(v-bind:href="articleHref(article.id)")
+            div.article-name {{ article.title }}
+            div.article-age(v-html="article.content")
 
 </template>
 
@@ -35,6 +37,12 @@ export default {
 
   components: {
     GlobalHeader,
+  },
+
+  methods: {
+    articleHref(id) {
+      return `/articles/${id}`
+    },
   },
 }
 </script>
