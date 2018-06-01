@@ -1,7 +1,7 @@
 <template lang="pug">
   div.ly-container.is-articles-show
     global-header
-    a(v-bind:href="articlesIndexUrl") 記事一覧にもどる
+    nuxt-link(v-bind:to="articlesIndexUrl") 記事一覧にもどる
     div.container
       h1 {{ pageTitle }}
       div.article-id {{ id }}

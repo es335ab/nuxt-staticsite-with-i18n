@@ -10,7 +10,7 @@
           v-for="article in articles"
           :key="article.id"
         )
-          a(v-bind:href="articleHref(article.id)")
+          nuxt-link(v-bind:to="articleHref(article.id)")
             div.article-name {{ article.title }}
             div.article-age(v-html="article.content")
 
